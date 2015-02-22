@@ -1,0 +1,1 @@
+Sensation 1.12.1 comes with Onsen 1.2.1 (https://github.com/OnsenUI/OnsenUI/releases/tag/1.2.1). You can find this project into the onsenui_1.2.1 folder.

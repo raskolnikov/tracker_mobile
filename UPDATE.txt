@@ -1,0 +1,16 @@
+How to update Sensation 1.12.0 to 1.12.1
+
+- Replace www/vendors/onsen folder
+- Replace config.xml file
+
+- Update com.phonegap.plugins.barcodescanner 2.0.0 "BarcodeScanner" to 2.0.1
+cordova plugin rm com.phonegap.plugins.barcodescanner
+cordova plugin add com.phonegap.plugins.barcodescanner
+
+- Update nl.x-services.plugins.socialsharing 4.3.7 "SocialSharing" to 4.3.11
+cordova plugin rm nl.x-services.plugins.socialsharing
+cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
+
+- pdate org.apache.cordova.inappbrowser 0.5.2 "InAppBrowser to 0.5.32
+cordova plugin rm org.apache.cordova.inappbrowser
+cordova plugin add org.apache.cordova.inappbrowser

@@ -1,0 +1,146 @@
+<strong>Sensation 1.12.1</strong>
+- (1.2.1) Upgrade to Onsen UI 1.2.1
+- (1.2.1) Update com.phonegap.plugins.barcodescanner 2.0.0 "BarcodeScanner" to 2.0.1
+- (1.2.1) Update nl.x-services.plugins.socialsharing 4.3.7 "SocialSharing" to 4.3.11
+- (1.2.1) Update org.apache.cordova.inappbrowser 0.5.2 "InAppBrowser to 0.5.3
+- (1.2.1) Add DisallowOverscroll preference to the config.xml
+
+
+<strong>Sensation 1.12.0</strong>
+- (1.2.0) Upgrade to Onsen UI 1.2.0
+- (1.2.0) Onsen 1.2.0 comes with update to AngularJS version 1.3.
+- (1.2.0) Fix iOS 8 small blink when combining Sliding menu and the Master-Detail patterns 
+- (1.2.0) Checkable checkbox in iOS device
+- (1.2.0) Check the length of the array in the ng-show directive - CHANGED: category-post.html, feed-detail.html, post.hml, server-post.htm]
+- (1.2.0) Update Angular Google Maps to latest 2.0.7 release http://angular-ui.github.io/angular-google-maps - CHANGED: map.html, app.js, angular-google-maps.min.js, bluebird.js
+
+<strong>Sensation 1.11.0</strong>
+(1.1.4) Cross-Platform Push Notifications using Pushwoosh - Added/Changed: js/pushwoosh-ios.js, js/pushwoosh-android.js, js/app.js, index.html [Sensation 1.x]
+(1.1.4) Prepare a tutorial for the iOS Push Notifications using Pushwoosh http://goo.gl/YKQL8k [Sensation 1.x]
+(1.1.4) Prepare a tutorial for the Android Push Notifications using Pushwoosh http://goo.gl/SPGWDJ [Sensation 1.x]
+(1.1.4) Add Cordova Pushwoosh Push Notifications plugin - $ cordova plugins add https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin.git (com.pushwoosh.plugins.pushwoosh) [Sensation 1.x]
+(1.1.4) Remove the list-item-action from the settings.html file: settings.html [Sensation 1.x]
+(1.1.4) Add section with an extra padding to the home.html file: home.html [Sensation 1.x]
+(1.1.4) Add Search functionality to the Wordpress Pagination window (Server side pagination with AngularJS) - CHANGELOG: serverposts.html, app.js [Sensation 1.x]
+(1.1.4) Add Search functionality to the Wordpress Categories window dynamically for all possible Wordpress Categories - CHANGELOG: category-posts.html, app.js [Sensation 1.x]
+(1.1.4) Prepare a tutorial for the Custom Wordpress Post-Types http://goo.gl/dIcCCP [Sensation 1.x]
+(1.1.4) Prepare a tutorial on how to enable the AdMob Plugin for Cordova / PhoneGap http://goo.gl/BkRa9P [Sensation 1.x]
+(1.1.4) Prepare a tutorial on how to pass and retrieve parameters between pages in the Sensation App http://goo.gl/bHyj5d [Sensation 1.x]
+(1.1.4) Prepare a tutorial about the $ phonegap serve command and the PhoneGap Developer App http://goo.gl/TDvGNp [Sensation 1.x]
+(1.1.4) Build / Distribute the iOS project using the SDK 8.1 [Sensation 1.x]
+(1.1.4) Update Cordova and Build the project with Cordova 4.0.0 [Sensation 1.x]
+
+<strong>Sensation 1.10.1</strong>
+- (1.1.4) Prepare tutorial on how to add an external JSON Data Marker to a Google Map with AngularJS and get directions to its location with the Sensation App http://goo.gl/lqoPiz
+- (1.1.4) Add style fix for the Title text overflow
+- (1.1.4) Update angular-sanitize.js 1.0.3 to 1.3.0
+- (1.1.4) Strip the HTML tags into the sharePost() function with a better way
+- (1.1.4) Add the structure.json file as the Multiple Feed API configuration file
+- (1.1.4) Implement new automated mechanism for managing multiple Feeds
+- (1.1.4) Add the new Menu entries for the Feed API
+- (1.1.4) Add the new FeedPluginData factory
+- (1.1.4) Add the new Controllers for the Feed API
+- (1.1.4) Style all Feed API windows
+- (1.1.4) Replace elements.html, tab-home.html, tab-settings.html and tab-comments.html
+- (1.1.4) Update Angular Carousel to its latest release 0.2.5
+- (1.1.4) Update nl.x-services.plugins.socialsharing 4.3.4 "SocialSharing" to 4.3.7
+- (1.1.4) Update org.apache.cordova.device 0.2.10 "Device" to 0.2.12
+- (1.1.4) Update org.apache.cordova.dialogs 0.2.8 "Notification" to 0.2.10
+- (1.1.4) Update org.apache.cordova.geolocation 0.3.8 "Geolocation" to 0.3.10
+- (1.1.4) Update org.apache.cordova.inappbrowser 0.5.0 "InAppBrowser" to 0.5.2
+
+<strong>Sensation 1.10.0</strong>
+- (1.1.4) Update Onsen UI framework to the latest 1.1.4 release
+
+<strong>Sensation 1.9.0</strong>
+- (1.1.3) Update Onsen UI framework to the latest 1.1.3 release
+- (1.1.3) Add Cordova plugin to share text, a file (image/PDF/..), or a URL (or all three) via the native sharing widget https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
+- (1.1.3) Share post button/function via the native sharing widget for Post, Server Post, Category Post and RSS Feed windows - Share Title, Message and Link
+- (1.1.3) Prototype: Offline Mode for the RSS window - Save RSS Feeds to the local storage
+- (1.1.3) Reset Local Storage for the RSS Feeds through the Settings window
+- (1.1.3) Print the Title with ng-bind-html for Post, Server Post and Category Post windows - Share Title, Message and Link
+- (1.1.3) Update all the default color schemes
+
+<strong>Sensation 1.8.3</strong>
+- (1.1.2) Confirm before closing the Sensation App http://goo.gl/D9drIW
+- (1.1.2) Load the code for opening any external link with InAppBrowser only one time in the onDeviceReady function into the app.js
+- (1.1.2) Print the full image into the post.html, serverpost.html and category-post.html
+- (1.1.2) Prepare a tutorial on how to confirm before closing the Sensation App http://goo.gl/D9drIW
+- (1.1.2) Prepare a tutorial on how to print custom fields from Wordpress JSON API http://goo.gl/iWY0pT
+
+<strong>Sensation 1.8.2</strong>
+- (1.1.2) Include jQuery 1.11.1 (jquery-1.11.1.min.js)
+- (1.1.2) Open any external link with InAppBrowser PhoneGap / Cordova Plugin in Post, Server Post, Category Post and RSS Feed Windows
+- (1.1.2) Prepare a tutorial on how to open any external link with InAppBrowser PhoneGap / Cordova Plugin http://goo.gl/XHr9UZ
+- (1.1.2) Update the RSS data source to https://developer.apple.com/news/rss/news.rss
+
+<strong>Sensation 1.8.1</strong>
+- (1.1.2) Add Loading messages to Wordpress Categories window
+- (1.1.2) Remove custom height from Discrete Bar Chart
+
+<strong>Sensation 1.8.0</strong>
+- (1.1.2) Get all the active Wordpress Categories using the get_category_index method and then get the Wordpress Posts of each Category using the method get_category_posts with Server Side pagination
+- (1.1.2) Print the number of posts for each active Wordpress Category
+- (1.1.2) Master - Detail implementation with 3 Levels
+- (1.1.2) An example of creating a simple Discrete Bar Chart with nvD3 visualization via JSON data http://krispo.github.io/angular-nvd3/
+- (1.1.2) Add Radio Button in List Item Component in the Elements Page
+
+<strong>Sensation 1.7.0</strong>
+- (1.1.2) Update Onsen UI to the latest 1.1.2 release
+- (1.1.2) Simple implementation with the new ons-modal component
+- (1.1.2) Small flicker in Android devices: Edited the MenuController in the js/app.js and changed from $scope.ons.navigator.pushPage(selectedItem.page) to $scope.ons.navigator.pushPage(selectedItem.page, {animation: 'none'})
+- (1.1.2) Draggable range input in Android devices
+- (1.1.2) Set swipe target width to the Sliding Menu <ons-sliding-menu menu-page="menu.html" main-page="home.html" side="left" max-slide-distance="85%" swipable="true" swipe-target-width="100" var="menu">
+
+<strong>Sensation 1.6.0</strong>
+- (1.1.1) Include Barcode Scanner plugin com.phonegap.plugins.barcodescanner with Scan function
+- (1.1.1) News Page with Search (Menu item with title Search News) - Filter the News (by their Title or Body) with a Search Input field and AngularJS
+- (1.1.1) Prepare a Tutorial on how to filter the News (by their Title or Body) with a Search Input field and AngularJS http://goo.gl/UKkS1V
+- (1.1.1) Get the values from the Contact form text input and textarea using the ng-model as it was implemented in 1.0.4
+
+<strong>Sensation 1.5.1</strong>
+- (1.1.1) Remove the timeout function from the Controllers
+- (1.1.1) Update the Onsen UI to latest 1.1.2-dev due to a very important fix https://github.com/OnsenUI/OnsenUI/issues/165
+- (1.0.4/1.1.1) Prepare new tutorial with title How to import and run the Sensation App into the Intel® XDK environment http://goo.gl/UrEKy8
+
+<strong>Sensation 1.5.0</strong>
+- (1.1.1) Use the ons-page without ons-scroller as the ons-page is scrollable in v1.1.x
+- (1.1.1) Google Maps for AngularJS http://angular-google-maps.org/ instead of Google maps v3 AngularJS directive module https://github.com/allenhwkim/angularjs-google-maps (js/ng-map.js removed)
+- (1.1.1) Pass and retrieve parameters between pages example (Managing page stacks: http://onsenui.io/guide/overview.html#Managingpagestacks)
+- (1.0.4/1.1.1) Prepare new tutorial with title How to build the Sensation App with Adobe® PhoneGap™ Build http://goo.gl/2fPPxP
+- (1.1.1) Update Onsen UI Framework to its latest release 1.1.1 https://github.com/OnsenUI/OnsenUI/releases/tag/1.1.1
+
+<strong>Sensation 1.4.0</strong>
+Onsen UI 1.1.0 is a major new release. Onsen UI 1.1.0 reduces AngularJS complexity, supports jQuery and is integrated with CSS Components Theme Roller. Due to the major of this release and its possible issues, Sensation 1.4.0 comes with two projects - one integrated to the latest release 1.1.0 and one based on 1.0.4 (https://github.com/OnsenUI/OnsenUI/releases/tag/1.0.4).
+- (1.1.0) Update Onsen UI to its latest release 1.1.0
+- (1.1.0) Full compatible with Onsen CSS Components
+- (1.1.0) Include default Onsen CSS Components stylesheets (Default, Gray, Red, Purple) - Support unlimited color schemes with theme roller http://components.onsenui.io/
+- (1.1.0) User login page design without functionality based on Onsen UI Patterns
+- (1.0.4) backbutton event that fires when the user presses the back button on Android
+- (1.0.4) Add ng-click="ons.slidingMenu.closeMenu()" function at the Home ons-page component
+
+<strong>Sensation 1.3.0</strong>
+- Removed target-densitydpi from the viewport meta tag (index.html) for Android devices
+
+<strong>Sensation 1.2.0</strong>
+- RSS Feed Reader using AngularJS
+Using the Google Feed API https://developers.google.com/feed/v1/jsondevguide. Added link to the original post using the Cordova inAppBrowser plugin.
+- Server side pagination using AngularJS (already applied to Wordpress JSON API server side pagination with the page &page parameter)
+- Server side pagination with Status Bar (Showing 1 to 10 of 100)
+- Added Cordova plugin org.apache.cordova.inappbrowser
+This plugin provides a web browser view that displays when calling window.open(), or when opening a link formed as <a target="_blank"> https://github.com/apache/cordova-plugin-inappbrowser/blob/master/doc/index.md.
+- Support 8 color schemes totally
+- Add max-slide-distance to sliding menu
+- Style chnages/fixes
+
+<strong>Sensation 1.1.0</strong>
+- Wordpress Listing Window: Added post thumbnail in the Master page (posts.html) linked to the Detail page (post.html)
+- Wordpress Listing Window: Printed post.excerpt with ng-bind-html
+- Wordpress Listing Window: Added more link between Wordpress Master/Detail pages (posts.html/post.html)
+- Wordpress Listing Window: Removed the letter limit option from post.excerpt in the Master page
+- Wordpress Listing Window: Added Loading… message in the Posts Controller
+- Style changes
+- Extended Support Documentation
+
+<strong>Sensation 1.0.0</strong>
+- Initial release
